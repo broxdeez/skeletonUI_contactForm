@@ -24,7 +24,7 @@
 </script>
 
 <div class="container h-full mx-auto flex flex-col justify-center items-center">
-	<div class="card w-1/2 p-10 space-y-5 flex flex-col">
+	<div class="card sm:w-1/2 p-10 space-y-5 flex flex-col">
 		<h1 class="h1">Contact Form</h1>
 		<p>Enter details below to save contact info</p>
 		<div class="space-y-2">
@@ -36,7 +36,7 @@
 		<button class="btn variant-filled-primary w-fit px-5" on:click={addContact}> Submit </button>
 	</div>
 
-	<div class="card w-1/2 p-10 space-y-5 flex flex-col mt-10">
+	<div class="card sm:w-1/2 p-8 space-y-5 flex flex-col mt-10">
 		<h2 class="h2">Stored Contacts</h2>
 		{#each $contactStore as contact, index}
 			<div class="card p-4 ">
